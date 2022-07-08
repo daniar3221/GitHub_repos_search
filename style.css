@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 15px;
+    background-color: rgb(71, 71, 184);
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.app{
+    max-width: 350px;
+    margin: 0 auto;
+ 
+}
+.search_input{
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 100px;
+  
+}
+.search_input input{
+    display: block;
+    font-size: 18px;
+    width: 94%;
+    padding: 8px 10px;
+    outline: 0;
+    border: 0;
+    /* border-top-left-radius: 150px ; */
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid gray;
+}
+
+.autocom_box li{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 8px 12px;
+    border-bottom: 1px solid grey ;
+}
+
+.selected:hover{
+    background-color: #acacac;
+}
+
+
+.repo_info{
+    width: 70%;
+}
+
+.repo{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
